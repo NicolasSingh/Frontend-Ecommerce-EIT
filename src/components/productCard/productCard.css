@@ -1,0 +1,38 @@
+.card-info-title {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: .5rem;
+    font-size: 30px;
+    font-family: var(--font-family);
+
+}
+
+.card-info-text {
+    text-align: center;
+    color: var(--dark-color);
+    padding: 1rem;
+    font-family: var(--font-family);
+    flex-grow: 1;
+
+}
+
+.card-btn-vm-back {
+    padding: 1rem;
+    display: flex;
+}
+
+.card-btn-buy-back {
+    cursor: pointer;
+    background-color: var(--dark-color);
+    /* Green */
+    border: none;
+    padding: 15px 32px;
+    color: var(--light-color);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
